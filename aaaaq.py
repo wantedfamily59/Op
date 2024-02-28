@@ -258,7 +258,7 @@ def arafat1():
     END = "[FBAN/FB4A;FBAV/409.0.0.13.251;FBBV/349036431;[FBAN/FB4A;FBAV/50.0.0.10.54;FBBV/16053535;FBDM/{density=4.0,width=1125,height=812};FBLC/en_US;FBRV/365822555;FBCR/Esw"+"atini "+"Mo"+"bile;FBMF/vi"+"vo;FBBD/vi"+"vo;FBPN/com.facebook.katana;FBDV/X7"+"10L;FBSV/4.3;nullFBCA/armeabi-v7a:armeabi;]"
     ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model3)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
     return ua
-model3 = requests.get(f'htt'+'ps'+'://g'+'ist.g'+'ithu'+'bus'+'erc'+'onte'+'nt.co'+'m/S'+'PD-'+'AR'+'AFA'+'T/315'+'6fcd'+'143'+'9bc5'+'448c'+'ebe4'+'71bb2'+'6d311'+'/ra'+'w/a762'+'f7a09'+'f6de'+'4816'+'4d5c'+'5b3'+'9b38'+'434ea4'+'4fbab0'+'/ar'+'afa'+'t10').text.splitlines()
+model3 = requests.get(f'https://github.com/wantedfamily59/Op/blob/main/Chk.text').text.splitlines()
 def arafat2():
     END = '[FBAN/Orca-Android;FBAV/415.0.0.34.107;FBBV/442016421;[FBAN/Orca-Android;FBAV/271.0.0.11.120;FBPN/com.facebook.orca;FBLC/en_US;FBBV/227270172;FBCR/Telecom;FBMF/el'+'eph'+'one;FBBD/elep'+'hone;FBDV/Vo'+'wn'+'ey;FBSV/5.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=4.0,width=1440,height=2368};FB_FW/1;]'
     ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(kkkkki)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
@@ -283,7 +283,7 @@ except:pass
 cl = random.choice([f'\033[1;91m','\033[1;92m','\033[1;94m','\033[1;95m','\033[1;96m','\033[1;97m','\033[1;90m'])
 #__________________[ TOOL VERSION ]__________________#
 try:
-    version = requests.get("https://github.com/wantedfamily59/Op/blob/main/Chk.text").text
+    version = requests.get("h"+"tt"+"p"+"s:/"+"/r"+"aw"+".g"+"it"+"hu"+"b"+"use"+"rc"+"on"+"te"+"nt."+"co"+"m/"+"AR"+"A"+"F"+"AT-"+"X-"+"MI"+"T"+"U"+"L/"+"C"+"ONT"+"RO"+"L/"+"ma"+"in"+"/v"+"er"+"si"+"on"+".t"+"xt").text
 except:
     print('No Internet Connection');exit()
 version = version.strip()
